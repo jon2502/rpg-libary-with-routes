@@ -1,13 +1,92 @@
 <template>
-    <div class="about">
-      <h1>This is the libary</h1>
-    </div>
+            <div v-for='(character, i) in characters' :key='i'>
+            <router-link :to="{ name: 'characterDetail', params: {id: character.id, }}">
+                <h3>{{ character.name }}</h3>
+            </router-link>
+        </div>
+        <section id="Libary">
+        <div class="infoContainer">
+            <div>
+                <h2>Brandr Svensson</h2>
+                <ul>
+                    <li>Race: Half Elf</li>
+                    <li>Culture: Thorwaler</li>
+                    <li>Profession: Mercenary</li>
+                    <li>Place of Birth: Waskir</li>
+                </ul>
+            </div>
+            <img src="../assets/characterImg/Brander.png" alt="Brandr">
+        </div>
+        <div class="infoContainer">
+            <div>
+                <h2>Gethlire Keller</h2>
+                <ul>
+                    <li>Race: Half Elf</li>
+                    <li>Culture: Garetian</li>
+                    <li>former Profession: Mercenary</li>
+                    <li>Place of Birth: info pending</li>
+                </ul>
+            </div>
+            <img src="../assets/characterImg/Gethlire_Keller.png" alt="Gethlire Keller">
+        </div>
+        <div class="infoContainer">
+            <div>
+                <h2>Scathach summers</h2>
+                <ul>
+                    <li>Race: Human</li>
+                    <li>Culture: Garetian</li>
+                    <li>Profession: striker</li>
+                    <li>Place of Birth: info pending</li>
+                </ul>
+            </div>
+            <img src="../assets/characterImg/Scathach_summers.png" alt="Brandr">
+        </div>
+        <div class="infoContainer">
+            <div>
+                <h2>Name pending</h2>
+            <ul>
+                <li>Race: tiefling</li>
+                <li>Culture: info pending</li>
+                <li>Profession: rogue</li>
+                <li>Place of Birth: info pending</li>
+            </ul>
+            </div>
+            <img src="../assets/characterImg/character.png" alt="Brandr">
+        </div>
+    </section>
 </template>
 
 <script>
-
+export default {
+    data() {
+        return {
+            characters: [
+                {name: 'Brandr Svensson', id: 1, img: '"../assets/characterImg/Brander.png"'},
+                {name: 'Gethlire Keller', id: 2, img: '"../assets/characterImg/Gethlire_Keller.png"'},
+                {name: 'Scathach summers', id: 3, img: '"../assets/characterImg/Scathach_summers.png"'},
+                {name: 'Name pending', id: 4, img: '"../assets/characterImg/character.png"'}
+            ]
+        }
+    }
+}
 </script>
 
 <style>
-
+    #Libary img{
+        width: 80%;
+    }
+    #Libary{
+        display: grid;
+        margin-top: 2vh;
+        grid-template-columns: repeat(2, 50%);
+        row-gap: 2vh;
+        padding-left: 5%;
+    }
+    .infoContainer{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    li{
+        list-style: none;
+    }
 </style>

@@ -13,6 +13,6 @@ export default {
 </script>
 <style>
 .home{
-  padding-left: 5%;
+  padding-left: 4vw;
 }
 </style>

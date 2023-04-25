@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import libaryView from '../views/characterLibary.vue'
+import characterDetail from '../views/characters/characterDetail.vue'
 
 const routes = [
   {
@@ -20,6 +21,12 @@ const routes = [
     path: '/libary',
     name: 'libary',
     component: libaryView
+  },
+  {
+    path: '/libary/:id',
+    name: 'characterDetail',
+    component: characterDetail,
+    props: true
   }
 ]
 
