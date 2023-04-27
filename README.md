@@ -2,15 +2,15 @@
 
 ## setup api
 run
-´´´
+```
 npm install
-´´´
+```
 in character api folder
 import <code>character.json</code> to mongodb
 make sure mongodb and mongoimport is installed then run in data folder
-´´´
+```
 mongoimport --db characterDB --collection characters --file characters.json 
-´´´
+```
 
 ## Project setup
 ```
