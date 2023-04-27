@@ -6,17 +6,20 @@ run
 npm install
 ```
 in character api folder
-import <code>character.json</code> to mongodb
+then import <code>character.json</code> to mongodb
 make sure mongodb and mongoimport is installed then run in data folder
 ```
 mongoimport --db characterDB --collection characters --file characters.json 
 ```
-
-## Project setup
+start server with
+```
+npm start
+```
+## Project setup for vue
 ```
 npm install
 ```
-
+in main folder
 ### Compiles and hot-reloads for development
 ```
 npm run serve
