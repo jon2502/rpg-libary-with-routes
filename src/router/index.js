@@ -23,7 +23,7 @@ const routes = [
     component: libaryView
   },
   {
-    path: '/libary/:id',
+    path: '/libary/:name',
     name: 'characterDetail',
     component: characterDetail,
     props: true

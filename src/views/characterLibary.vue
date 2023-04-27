@@ -54,19 +54,28 @@
             <img src="../assets/characterImg/character.png" alt="Brandr">
         </div>
     </section>
+    <aside>
+            side bar
+    </aside>
 </template>
 
 <script>
 export default {
     data() {
         return {
-            characters: [
-                {name: 'Brandr Svensson', id: 1, img: '"../assets/characterImg/Brander.png"'},
-                {name: 'Gethlire Keller', id: 2, img: '"../assets/characterImg/Gethlire_Keller.png"'},
-                {name: 'Scathach summers', id: 3, img: '"../assets/characterImg/Scathach_summers.png"'},
-                {name: 'Name pending', id: 4, img: '"../assets/characterImg/character.png"'}
-            ]
+            characters: []
         }
+    },
+    methods: {
+        async getcharacter() {
+            let characters = await fetch('http://localhost:3000/characters');
+            let finalist = await characters.json();
+            this.characters = finalist.characters;
+        }
+    },
+
+    created: function (){
+        this.getcharacter()
     }
 }
 </script>
