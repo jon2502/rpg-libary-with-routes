@@ -1,6 +1,6 @@
 <template>
-            <div v-for='(character, i) in characters' :key='i'>
-            <router-link :to="{ name: 'characterDetail', params: {id: character.id, }}">
+        <div v-for='(character, i) in characters' :key='i'>
+            <router-link :to="{ name: 'characterDetail', params: {name: character.name, }}">
                 <h3>{{ character.name }}</h3>
             </router-link>
         </div>
@@ -63,18 +63,24 @@
 export default {
     data() {
         return {
+            //
             characters: []
         }
     },
     methods: {
         async getcharacter() {
+            //fetch api
             let characters = await fetch('http://localhost:3000/characters');
+            //
             let finalist = await characters.json();
+            //
             this.characters = finalist.characters;
+            console.log(this.characters)
         }
     },
 
     created: function (){
+        //
         this.getcharacter()
     }
 }

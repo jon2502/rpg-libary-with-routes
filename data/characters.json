@@ -1,9 +1,8 @@
-{
-    "characters": [
+[
         {
             "name": "Brandr Svensson", 
             "id": 1,
-            "img": "../assets/characterImg/Brander.png",
+            "img": "https://dub07pap002files.storage.live.com/y4mBg_yORF10exHN4AoGdYQrGkmoEBAgeDO6sfGmuTfA0c0-TP8w2H_Rw2OBBKNFCyAbq7ZYjGn-m7VKkzO3d7j2qdHCdT2srlZci_XD1-zUaWNP4gubhfOkHYCDOf4Aiv6O6qrms2I_Fe0ipXCFGYQj8f0SjQ_Ksh9TM8TdPdbW_X4AokWaOUDRVkuMRFV9xF0?width=596&height=842&cropmode=none",
             "p1":"Brandr Svenson is a half elf from Waskir. At an early age he lost his parents to monsters and was left orphaned. Because of his heritage and his eyes being an unnatural cat like shape. As a result, he spent a lot of his early life stealing food to survive the only memento of his parents that he had left was his wolf head necklace given to him by his mother as a child.",
             "p2":"His life however changed one day when he stole form a man named Waldbert Hanetraub a mercenary from Andergast and the leader of the mercenary group named Serpent Riders.",
             "p3":"Being impressed with the boy's aggression and untapped potential as a warrior Walbert decided to take him in and raise him to be a warrior and to one day succeed him.",
@@ -20,7 +19,7 @@
         {
             "name": "Gethlire Keller", 
             "id": 2,
-            "img": "../assets/characterImg/Gethlire_Keller.png",
+            "img": "https://dub07pap002files.storage.live.com/y4mEZHKv5cnxp6ZYeQ9zUai-Kvpbj1ReuDp8ZM6LfaP4ZTR4i9wBX3P9rKIFJfo7-WbKzaOdOO_txp-qa1LmM7tOak5QBZhBQzrjEW4NP9eehfBd3TYz_ZR1LaibMgFsU2Y88Drj8skn4sqt-hHgB2Yg8L6pRaNvCDafjTm9DFQfYxejR0vl2kPNl39eOm4gnGb?width=596&height=842&cropmode=none",
             "p1":"",
             "p2":"",
             "p3":"",
@@ -37,7 +36,7 @@
         {
             "name": "Scathach summers", 
             "id": 3,
-            "img": "../assets/characterImg/Scathach_summers.png",
+            "img": "https://dub07pap002files.storage.live.com/y4mSbmulgIrBSCCE1mGayNivnP02b5dMBHi4RqpnhYXMBzH84ZzgydwYxhppZkhKbG2ceSXGdPyNHKgSk6dQZx_VKmmvA1Kx-RKU_aStAI99VZYht5WeLC5M8XJL9bgDb3guPgnSp7OaXWiPZH6pBfK0SQpc9Jn177aQgtsbbkrhjnqVOBbvEzfwjka9K_iCzkN?width=1054&height=945&cropmode=none",
             "p1":"",
             "p2":"",
             "p3":"",
@@ -54,7 +53,7 @@
         {
             "name": "Name pending", 
             "id": 4,
-            "img": "../assets/characterImg/character.png",
+            "img": "https://dub07pap002files.storage.live.com/y4mPeI57FOvBgzdD26zKvr0gevffDKUhnNo8WP_0Oom23qqFvyFE2j4_UeSVHgg0-sTjbgj3ZsnLLxFnVBgCBfBeasi3AMTH1c7-FPN3nO9eOYliDJB5Mwp4FlbEw9lv9ytwvr63UBr3pgzq5_3tTe9mIevfZbiIszZPiQS07oJtLNGEmE2X-sv1sSbxOQ37U_w?width=596&height=842&cropmode=none",
             "p1":"",
             "p2":"",
             "p3":"",
@@ -69,4 +68,3 @@
             "p12":""
         }
     ]
-}

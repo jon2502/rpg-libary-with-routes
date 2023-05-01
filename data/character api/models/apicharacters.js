@@ -53,3 +53,5 @@ const schema = mongoose.Schema({
         type:String
     }
 })
+
+module.exports = mongoose.model("Characters", schema, 'characters');
