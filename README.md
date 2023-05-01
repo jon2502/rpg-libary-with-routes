@@ -9,7 +9,7 @@ in character api folder
 then import <code>character.json</code> to mongodb
 make sure mongodb and mongoimport is installed then run in data folder
 ```
-mongoimport --db characterDB --collection characters --file characters.json 
+mongoimport --jsonArray --db characterDB --collection characters --file characters.json 
 ```
 start server with
 ```

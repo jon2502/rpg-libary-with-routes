@@ -15,7 +15,7 @@
             <p>{{ character.p11 }}</p>
             <p>{{ character.p12 }}</p>
         </div>
-        <img src="https://dub07pap002files.storage.live.com/y4mBg_yORF10exHN4AoGdYQrGkmoEBAgeDO6sfGmuTfA0c0-TP8w2H_Rw2OBBKNFCyAbq7ZYjGn-m7VKkzO3d7j2qdHCdT2srlZci_XD1-zUaWNP4gubhfOkHYCDOf4Aiv6O6qrms2I_Fe0ipXCFGYQj8f0SjQ_Ksh9TM8TdPdbW_X4AokWaOUDRVkuMRFV9xF0?width=596&height=842&cropmode=none"/>
+        <img :src="character.img" :alt="character.name">
     </section>
     <aside>
             side bar
