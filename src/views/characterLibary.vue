@@ -75,7 +75,6 @@ export default {
             let finalist = await characters.json();
             //
             this.characters = finalist.characters;
-            console.log(this.characters)
         }
     },
 

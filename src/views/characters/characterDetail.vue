@@ -43,7 +43,6 @@ export default {
             let finalist = await character.json();
             //
             this.character = finalist.character[0];
-            console.log(this.character)
         }
     },
     created: function (){
