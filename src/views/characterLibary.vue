@@ -1,5 +1,6 @@
 <template>
         <div v-for='(character, i) in characters' :key='i'>
+            <!-- : placeres forand to så at vi kan binde data fra chracter til character detain parametern name -->
             <router-link :to="{ name: 'characterDetail', params: {name: character.name, }}">
                 <h3>{{ character.name }}</h3>
             </router-link>

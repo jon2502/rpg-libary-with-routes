@@ -53,5 +53,5 @@ const schema = mongoose.Schema({
         type:String
     }
 })
-
+//mongoose.model("name of collection the model is for", the schema to use for the model);
 module.exports = mongoose.model("Characters", schema);

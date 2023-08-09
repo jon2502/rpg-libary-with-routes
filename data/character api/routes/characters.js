@@ -8,7 +8,7 @@ router.get('/characters',con.getCharacters, function(req, res) {
   res.json({ characters: res.locals.characters });
 });
 
-router.get('/characters/:characters', con.getCharacter, function(req, res) {
+router.get('/characters/:character', con.getCharacter, function(req, res) {
   res.json({ character: res.locals.characters})
   
 });
